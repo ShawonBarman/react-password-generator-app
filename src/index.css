@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(17, 17, 180);;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.passwordBox{
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+  background-color: rgb(45, 45, 222);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.passwordBox h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.passwordBox .result-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.passwordBox .result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+  overflow-y: scroll;
+  height: 100%;
+  padding-top: 4px;
+}
+
+.passwordBox #result::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.passwordBox .result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+}
+
+.passwordBox .btn {
+  border: none;
+  background-color: #3b3b98;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.passwordBox .options .option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.passwordBox .options .option input {
+  max-width: 70px;
+  padding-left: 0.5rem;
+  font-size: 14px;
+}
+
+.passwordBox .btn-large {
+  display: block;
+  width: 100%;
+}
+
+.passwordBox .btn-large:hover {
+  display: block;
+  width: 100%;
+  background-color: #24247a;
+}
