@@ -1,6 +1,8 @@
 # react-password-generator-app
 This is a password generator application built using React. It allows users to generate secure passwords with customizable options like password length, uppercase letters, lowercase letters, numbers, and special characters. Users can also copy the generated password to the clipboard.
 
+### Live: https://react-app-password-generator.netlify.app/
+
 ## Features
 
 - **Customizable Password Length**: Users can choose a password length between 4 and 24 characters.
