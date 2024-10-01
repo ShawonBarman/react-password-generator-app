@@ -43,7 +43,9 @@ function App() {
           <h2>Password Generator</h2>
 
           <div className="result-container">
-            <span id="result">{finalPassword}</span>
+            <span id="result">
+              {finalPassword !== '' ? finalPassword : null}
+            </span>
             <button className="btn" id="clipboard" onClick={copyPassword}>&#x2398;</button>
           </div>
 
